@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* @import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body { 
+    color: #333;
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    /* font-weight: 400; */
+    /* line-height: 1;  */
+}
+
+.cont01 {
+    width: 1280px;
+    margin: 150px auto;
+}
+section .title {
+    margin-bottom: 40px;
+}
+section .title p {
+    font-size: 20px; 
+    color: #86cab6;}
+section .title h3 {font-size: 60px;}
+
+.cont01 .list {
+     height: 550px;
+     display: flex;
+     justify-content: space-between;
+}
+.cont01 .list figure {
+    width: 840px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.cont01 .list figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont01 .list .text {
+    /* width: 420px; */
+    width: 430px;
+    background-color: #f6f6f8;
+    padding: 40px;
+    border-radius: 30px;
+    
+}
+
+.cont01 .list .text a {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cont01 .list .text span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #005b45;
+}
+.cont01 .list .text .text_bottom {}
+.cont01 .list .text .text_bottom h4 {
+    font-size: 34px;
+    color: #005b45;
+    /* margin-bottom: 40px; */
+    margin-bottom: 25px;
+}
+.cont01 .list .text .text_bottom p {
+    
+}
+
+.cont02 {
+    background-color: #f6f8f8;
+    padding: 150px 0;
+}
+.cont02 .inner {
+    width: 1280px;
+    margin: 0 auto;
+}
+.cont02 .list {
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+.cont02 .list > div {
+    width: 410px; 
+   
+    height: 624px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.cont02 .list > div .text {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    color: #fff;
+}
+.cont02 .list > div .text h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.cont02 .list > div figure {
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.cont02 .list > div figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* display: block; */
+    
+}
+.cont02 .list .item_center { 
+    position: relative;
+}
+ 
+.cont02 .list .item_wrap .item {
+    position: relative;
+    height: 300px;     
+}
+.cont02 .list > div figure::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.02) 20%, rgba(0,0,0,0) 100%);  
+    position: absolute;
+    top: 0;
+    left: 0;
+}
